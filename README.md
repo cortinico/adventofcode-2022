@@ -1,25 +1,68 @@
-# adventofcode-2022
+# Advent of Code 2022 🎄
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [cortinico][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+[![AoC2022](https://img.shields.io/badge/%20%F0%9F%8E%84adventofcode-2022-red)](https://adventofcode.com/2022) ![Language](https://img.shields.io/github/languages/top/cortinico/adventofcode-2022?color=blue&logo=kotlin)
+[![Twitter](https://img.shields.io/badge/Twitter-@cortinico-blue.svg?style=flat)](http://twitter.com/cortinico)
 
-In this repository, cortinico is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+```kotlin
+val aMessageFromMe = """
+     .      .     II |  \)  .      .         .              .     /\     .
+  .      .      .II  |                   .          .    .        \ \.
+    .       .     II |   , hristmas  .        __       .      /\_,'  /~|  .
+  .      .     .   ~~~--'                    {::;,~;  __  ,-. \  /~._)::
+     .      .     .       .      .      . (\_/`:_';;._;:: ::|  ; `;;;;; .
+  .     .     ___..----._      .     .    `-.__  `-._;;;;-'::_.' ,;;;,'   .
+      .    ,-'           `-._     .      .     `-.__ `:_::::`.__,;:::;-, .
+    .    ,'           _______`; .     .       .     `--.`._::::::::_:-' . .
+  .    ,'  ____--#############|   .       .        .    `-.`::::::'  .   .
+      | ./|###################|      .         .          | ::::::     .
+  ,###\/  |######-----~~~~~~~~:   .      .         .    _.--'    :_.--.___
+  |####|   |   .....     .... :||.    .        .      .'  \\\     _      _>
+  `####'  |:: ;;;;;;;   ;;;;;;:::|.      .   .        ; 0   \\\_--;`~~--~
+         ||:;    __       __   :|||.  .    .        _,'  _-~_ \\ ~;       .
+ .  .   ||:;    '  `   _ '  `  ::|||     .      _.-'\\\-~_-~   \\.'  .  .
+  .    ||:;        _,,(_),,_    :||'  .      . (_)   \\\~  __.--';     .
+      ||::::     ,|||||||||||.   ::||   .  .     `--','\\'~     .'  .      .
+ .   |:::::::_  ,|||||   |||||,   :|'    .      .   `--' `.     ;       .
+    ||;;;:::::::;|||||___|||||':::::||      .             :     :    .     .
+    `|;;::::::::::::::::::::::::::::::|  .       .    .   ;     :      .
+  .    ,|;;|::::::|||||||||::::::||||||       .    .     ,'      :  .      .
+      |;;;||||::::::|||||::::::::::|||'---.___          ,'       :       .
+      |;;;;||||||::::::|||::::::::::||__ :::::`---.____,'         :  .     .
+ .    `|;;;;||||||::::::|||:::::::|||'  `-._":::::::: ,'           :--._
+   .    _,|;;;|||||||||:::|::::::||''       `.":::::,'           _::::::`.
+ .    ,' |;;;;;;;;|||||::::::::||;;           `-.::;            |#########|
+   .  |      `|;;;;|||||;;;;:;;;'                ,'            |##########|
+ .   |         `||;;;;||;;;;|||'                _;-'\          /          |
+     |         ||  `;;;;;;;;;;' ________    _.-'      \      /'            |
+  . |          |      ````''_,-|::::::::`,-'   ___      \   (    ,'|       |
+    |          |           /___/' _`---;'  _.-'   \       \  `--' ,'       |
+   |          |       ___#####,--'   ,'  ,\;;;\   |`\|:    |     :'       ,'
+   |          :__.---'   |####      ,'  :` `\::`\_| ;    _;      `.____.-'
+  :                      |####      ;___:  / `.::;: `.__,'     ____--'  |
+  ;                      |####     /____|  \. `.;;;|                     \
+  `,                _____|####__             ; `~~~~|                     |
+   `._____,--------'     ~~~~~  `-._________,'       |_____________________\
+ |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+ |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+ |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+ |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+ |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+ |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+ [[[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[]]]]
+ [[[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[]]]]
+ ~~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~
+ ]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[
+ ]]]]] [[TARGON]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[[[]]]]] [[[
+ ~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~ ~~~
+"""
+```
 
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
+Kotlin solutions for my [Advent of Code 2022](https://adventofcode.com/2022).
+If you're looking for the 2021 solutions (almost all of them!), [you can find it here](https://github.com/cortinico/adventofcode-2021).
+If you're looking for the 2020 solutions, [you can find it here](https://github.com/cortinico/adventofcode-2020).
 
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
+If you enjoyed the event, don't forget to [support the event](https://adventofcode.com/2022/support) ❤️.
 
+## License 📄
 
-[^aoc]:
-    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
-    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-five days.
-    You can solve the puzzle and provide an answer using the language of your choice.
-
-[aoc]: https://adventofcode.com
-[docs]: https://kotlinlang.org/docs/home.html
-[github]: https://github.com/cortinico
-[issues]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template/issues
-[kotlin]: https://kotlinlang.org
-[slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
-[template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+This code in this repository is licensed under the MIT License - see the [License](LICENSE) file for details
