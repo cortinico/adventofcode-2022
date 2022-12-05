@@ -1,6 +1,6 @@
 package com.ncorti.aoc2022
 
-fun String.processInput() = split("\n")
+private fun String.processInput() = split("\n")
   .map { it.split(",") }
   .map { (p1, p2) ->
     val pair1 = p1.split("-")
